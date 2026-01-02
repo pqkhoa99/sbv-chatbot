@@ -2,7 +2,7 @@
 
 **Chatbot Hỏi Đáp Pháp Luật Ngân Hàng Nhà Nước Việt Nam**
 
-A chatbot application for Vietnamese banking law questions with conversation management, multiple AI models (RAG + Graph + LLMs), and PostgreSQL storage.
+A chatbot application for the State Bank of Vietnam Legal Documents Question-Answering using RAG and custom Knowledge Graph.
 
 ## Features
 
