@@ -6,11 +6,12 @@ A chatbot application for the State Bank of Vietnam Legal Documents Question-Ans
 
 ## Features
 
-- 6 AI Models: LawGraph (recommended), Advanced RAG, Naive RAG, BM25, GPT-5 Mini, Gemini 2.5 Flash
-- Conversation management with PostgreSQL
+- 6 AI Models: LawGraph (recommended), Advanced RAG, Naive RAG, BM25, GPT-5, Gemini 2.5 Pro
+- Knowledge Graph with Neo4j
+- Conversation management
 - JWT authentication
 - React frontend with syntax highlighting
-- Docker containers for databases (PostgreSQL, Neo4j, Qdrant)
+- Docker containers for dependencies
 
 ## Project Structure
 
@@ -70,18 +71,7 @@ docker-compose up -d
 ```
 
 2. **Configure environment**
-Create `backend/.env`:
-```env
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/sbv_chatbot
-OPENAI_API_KEY=your_openai_key
-GOOGLE_API_KEY=your_google_key
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USERNAME=neo4j
-NEO4J_PASSWORD=password
-QDRANT_URL=http://localhost:6333
-COLLECTION_NAME=sbv_legal_articles
-LLM_PROVIDER=openai
-```
+Create `.env` following the `.env.example`:
 
 3. **Start backend**
 ```bash
