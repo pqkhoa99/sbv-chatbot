@@ -1,0 +1,126 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+.hypothesis/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.yarn/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.npm/
+.eslintcache
+.cache/
+
+# Docker volumes
+postgres_data/
+neo4j/data/
+neo4j/logs/
+qdrant_data/
+neo4j/
+postgres_data/
+dataset/
+
+# Environment
+.env
+.env.*
+!.env.example
+.env.local
+.env.production
+.env.development
+backend/.env
+*.key
+*.pem
+secrets/
+
+# Logs
+*.log
+backend/*.log
+frontend/*.log
+backend/backend.log
+frontend/frontend.log
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+# Cache directories
+flashrank_cache/
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# AI/ML
+*.model
+*.pkl
+*.pickle
+*.h5
+*.onnx
+checkpoints/
+models/saved/
+wandb/
